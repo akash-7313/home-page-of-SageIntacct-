@@ -1,0 +1,52 @@
+.btn-txt{
+    font-size: 12px;
+}
+.nav-txt{
+    font-size: 12px;
+}
+.nav-txt:hover{
+    border-bottom:1px solid #5f802a;
+}
+
+.nav-bg{
+    background-color: #020216ab;
+}
+.head-txt{
+    font-size: 10px;
+}
+.head-txt:hover{
+    border-bottom:1px solid #fff;
+}
+
+.fa-txt{
+    font-size: 7px;
+    padding-left: 2px;
+}
+.banner-footer{
+    margin-top: -30px;
+    box-shadow: 0 -5px 20px #00000030;
+}
+.accordion-txt{
+    font-size: 9px;
+}
+.popular-bg{
+    background-color: #c5cbf1;
+}
+.slider-txt{
+    color: #000000bb;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000000be;
+}
+.slider-txt:hover{
+    color: #008000;
+    border-bottom: 1px solid #008000;
+}
+.slide-txt{
+    font-size: 10px;
+}
+.foot-line{
+    line-height: 1px;
+}
+.popular-shadow:hover{
+    box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
+}
