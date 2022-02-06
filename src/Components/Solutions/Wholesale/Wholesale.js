@@ -4,7 +4,7 @@ import wholesaleImg from "../../../images/needs/accounting-financial-management-
 
 const Wholesale = () => {
     return (
-      <div>
+      <div className='text-start'>
         <div>
           <p className="fw-bold fs-5">Wholesale Distribution</p>
           <p>
@@ -13,7 +13,7 @@ const Wholesale = () => {
             productivity. Built from the ground up to be the best in the
             industry, Sage
           </p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             Wholesale Distribution industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>

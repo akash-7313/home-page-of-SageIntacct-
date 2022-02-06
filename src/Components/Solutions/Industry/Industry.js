@@ -4,7 +4,7 @@ import industryImg from "../../../images/needs/accounting-financial-management-f
 
 const Industry = () => {
     return (
-      <div>
+      <div className="text-start">
         <div>
           <p className="fw-bold fs-5">For Any Industry</p>
           <p>
@@ -12,7 +12,7 @@ const Industry = () => {
             business. Learn why industry leaders choose Sage Intacct—rated #1 in
             customer satisfaction by G2.
           </p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             For Any Industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>

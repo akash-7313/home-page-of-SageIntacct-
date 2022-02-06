@@ -4,7 +4,7 @@ import financialImg from "../../../images/needs/accounting-financial-management-
 
 const Financial = () => {
     return (
-      <div>
+      <div className="text-start">
         <div>
           <p className="fw-bold fs-5">Financial Services</p>
           <p>
@@ -13,7 +13,7 @@ const Financial = () => {
             management, real estate, insurance, lending and fintech. Learn more
             about Sage Intacct,
           </p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             Financial Services industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>

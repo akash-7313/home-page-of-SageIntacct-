@@ -1,29 +1,6 @@
-#content {
-  width: 100%;
-  position: relative;
-  margin-right: 0;
-}
-
-/* Sidebar Styles */
-
-#sidebar {
-  z-index: 1000;
-  left: 250px;
-  width: 250px;
-  height: 100vh;
-  margin-left: -250px;
-  overflow-y: auto;
-  transition: all 0.5s ease;
-}
-
-#sidebar h2 {
-  font-size: 20px;
-  line-height: 52px;
-  text-align: center;
-}
-
-
-.dashboard-link {
+.nested-link {
+  width: 70%;
+  margin: auto;
   border-top: 1px solid #455a644d;
   border-bottom: 1px solid #455a6452;
   color: #102027;
@@ -33,11 +10,26 @@
   display: block;
 }
 
-.dashboard-link:hover {
+.nested-link:hover {
   background: none;
   color: #008000;
 }
 
-.dashboard-link i {
+.nested-link i {
   margin-right: 16px;
+}
+
+.nested-routes{
+  width: 80%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .nested-link{
+    width: 100%;
+  }
+  .nested-routes{
+    width: 90%;
+    padding-top: 20px;
+  }
 }

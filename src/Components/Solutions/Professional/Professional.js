@@ -4,7 +4,7 @@ import professionalImg from "../../../images/needs/accounting-financial-manageme
 
 const Professional = () => {
     return (
-      <div>
+      <div className="text-start">
         <div>
           <p className="fw-bold fs-5">Professional Services</p>
           <p>
@@ -13,7 +13,7 @@ const Professional = () => {
             business—not just finance— for improved automation, profitability
             and customer
           </p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             Professional Services industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>

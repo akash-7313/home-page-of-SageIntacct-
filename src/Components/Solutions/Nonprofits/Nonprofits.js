@@ -4,11 +4,11 @@ import nonprofitsImg from "../../../images/needs/accounting-financial-management
 
 const Nonprofits = () => {
     return (
-      <div>
+      <div className="text-start">
         <div>
           <p className="fw-bold fs-5">Nonprofits</p>
           <p>Sage Intacct Helping Nonprofits Achieve Greater Impact.</p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             Nonprofits industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>

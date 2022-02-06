@@ -4,7 +4,7 @@ import healthcareImg from "../../../images/needs/accounting-financial-management
 
 const Healthcare = () => {
     return (
-      <div>
+      <div className="text-start">
         <div>
           <p className="fw-bold fs-5">Healthcare</p>
           <p>
@@ -12,7 +12,7 @@ const Healthcare = () => {
             organizations. Our cloud-based accounting solution is the only
             accounting software endorsed by the AICPA and designated as Peer
           </p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             Healthcare industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>

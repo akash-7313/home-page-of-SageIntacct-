@@ -4,7 +4,7 @@ import hospitalityImg from "../../../images/needs/accounting-financial-managemen
 
 const Hospitality = () => {
     return (
-      <div>
+      <div className="text-start">
         <div>
           <p className="fw-bold fs-5">Hospitality</p>
           <p>
@@ -12,7 +12,7 @@ const Hospitality = () => {
             resorts, restaurants, entertainment venues, clubs, and all other
             hospitality industry businesses.
           </p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             Hospitality industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>

@@ -4,13 +4,13 @@ import subscriptionImg from "../../../images/needs/accounting-financial-manageme
 
 const Subscription = () => {
     return (
-      <div>
+      <div className="text-start">
         <div>
           <p className="fw-bold fs-5">Subscription and SaaS</p>
           <p>
             The #1 Subscription Billing & Financial Software for SaaS Companies.
           </p>
-          <NavLink to="/" className="slider-txt text-decoration-none">
+          <NavLink to="" className="slider-txt text-decoration-none">
             Subscription and SaaS industry
             <i className="fas fa-long-arrow-alt-right ms-1"></i>
           </NavLink>
